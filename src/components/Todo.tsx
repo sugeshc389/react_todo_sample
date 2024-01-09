@@ -13,7 +13,7 @@ function Todo() {
 
     const add = () => {
         setTodo([...todo, { Text: inputRef.current.value, Display: '' }])
-        // inputRef.current.value = ""; 
+        
     }
 
     useEffect(() => {
